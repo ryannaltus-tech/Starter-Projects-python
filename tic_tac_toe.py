@@ -1,5 +1,6 @@
 #initiation, blank board user symbol, turn status 
 from random import*
+print("Welcome to Naughts and Crosses! The grid is numbered 1-9, starting from the top left corner and going across each row. Naughts goes first, so if you choose naughts you will be playing first. If you choose crosses, the computer will play first. Good luck!")
 board = ['| |', '| |','| |', '| |', '| |', '| |', '| |', '| |', '| |']
 user = input("Naughts or Crosses? Naughts is first  ").lower()
 turnStatus = False
